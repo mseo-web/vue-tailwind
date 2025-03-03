@@ -1,5 +1,5 @@
 <template>
-    <section id="features" class="py-16 md:py-20 lg:py-28">
+    <section id="features" class="py-16 md:py-20 lg:py-28 bg-white dark:bg-black">
         <div class="container">
             <div class="w-full mx-auto text-center" style="max-width: 570px; margin-bottom: 100px;">
                 <h2 class="mb-4 text-3xl font-bold !leading-tight text-black dark:text-white sm:text-4xl md:text-[45px]">Технологии</h2>

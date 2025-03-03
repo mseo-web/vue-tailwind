@@ -1,6 +1,6 @@
 <template>
     <div v-if="post">
-      <section class="pb-[120px] pt-[150px]">
+      <section class="pb-[120px] pt-[150px] bg-white dark:bg-gray-dark">
         <div class="container">
             <div class="-mx-4 flex flex-wrap justify-center">
                 <div class="w-full px-4 lg:w-8/12">
@@ -143,7 +143,7 @@
                             <div class="items-center justify-between sm:flex">
                                 <div class="mb-5">
                                     <h4 class="mb-3 text-sm font-medium text-body-color">Категория :</h4>
-                                    <div v-if="post && post.categories && post.categories.length > 0" class="flex items-center">
+                                    <div v-if="post && post.categories && post.categories.length > 0" class="flex flex-wrap items-center">
                                         <router-link v-for="category in post.categories" :key="category.id" :to="{ name: 'Projects', query: { category: category } }" class="bg-gray-light mb-3 mr-3 inline-flex items-center justify-center rounded-sm px-4 py-2 text-sm text-black duration-300 hover:bg-primary hover:text-white dark:bg-[#2C303B] dark:text-white dark:hover:bg-primary">
                                             {{ getCategoryName(category) }}
                                         </router-link>

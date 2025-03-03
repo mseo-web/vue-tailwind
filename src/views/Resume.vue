@@ -1,5 +1,5 @@
 <template>
-    <section class="relative z-10 overflow-hidden pt-28 lg:pt-[150px]">
+    <section class="relative z-10 overflow-hidden pt-28 lg:pt-[150px] bg-white dark:bg-gray-dark">
         <div class="container">
             <div class="-mx-4 flex flex-wrap items-center">
                 <div class="w-full px-4 md:w-8/12 lg:w-7/12">
@@ -49,12 +49,12 @@
         </div>
     </section>
 
-    <section>
+    <section class="bg-white dark:bg-gray-dark">
         <div class="container mx-auto py-8">
             <div class="flex flex-wrap">
                 <div class="w-full md:w-1/2 p-2">
                     <!-- Колонка 1 -->
-                    <div class="bg-gray-800 rounded-lg p-4">
+                    <div class="bg-gray-light dark:bg-black rounded-lg p-4 text-dark dark:text-white">
                         <div>
                             <div class="mb-8 border-b-4 border-gray-100 py-2.5 dark:border-gray-900">
                                 <h3 class="text-xl font-medium">Образование</h3>
@@ -70,7 +70,7 @@
                                     <div class="py-2 italic">
                                         Павлодарский государственный университет им.С.Торайгырова
                                     </div>
-                                    <p class="py-1 text-sm/relaxed text-gray-700 dark:text-gray-300">
+                                    <p class="py-1 text-sm/relaxed">
                                         Павлодарский индустриальный институт (ПИИ) был образован Постановлением Совета Министров СССР от 20 сентября 1960 года № 1009. В 1992 году ПИИ преобразован в Казахский государственный технический университет. В 1994 году вуз был преобразован в Павлодарский государственный университет, а в 1996 году Постановлением Кабинета Министров Республики Казахстан был переименован в Павлодарский государственный университет имени С. Торайгырова.
                                     </p>
                                 </li>
@@ -84,7 +84,7 @@
                                     <div class="py-2 italic">
                                         Общеобразовательная школа №3, созданная в 1957 году и преобразованная в 1997 году в гимназию, в итоге длительного пути своего развития в 2005 году получила статус гимназии для одаренных детей.
                                     </div>
-                                    <p class="py-1 text-sm/relaxed text-gray-700 dark:text-gray-300">
+                                    <p class="py-1 text-sm/relaxed">
                                         Закончил физико-математическую школу в Советском Союзе, чему несказанно рад. Участвовал в олимпиадах по физике и математике.
                                     </p>
                                 </li>
@@ -94,7 +94,7 @@
                 </div>
                 <div class="w-full md:w-1/2 p-2">
                     <!-- Колонка 2 -->
-                    <div class="bg-gray-800 rounded-lg p-4">
+                    <div class="bg-gray-light dark:bg-black rounded-lg p-4 text-dark dark:text-white">
                         <div>
                             <div class="mb-8 border-b-4 border-gray-100 py-2.5 dark:border-gray-900">
                                 <h3 class="text-xl font-medium">Программирование</h3>
@@ -110,13 +110,13 @@
                                     <div class="py-2 italic">
                                         Небольшие проекты, самообразование, Павлодар
                                     </div>
-                                    <p class="py-1 text-sm/relaxed text-gray-700 dark:text-gray-300">
+                                    <p class="py-1 text-sm/relaxed">
                                         Занимался самообразованием (C#, Python, React, Vue, Go и другое). UMI CMS - начальные знания.
                                     </p>
-                                    <p class="py-1 text-sm/relaxed text-gray-700 dark:text-gray-300">
+                                    <p class="py-1 text-sm/relaxed">
                                         Познакомился с интеграцией amoCRM (начальные знания).
                                     </p>
-                                    <p class="py-1 text-sm/relaxed text-gray-700 dark:text-gray-300">
+                                    <p class="py-1 text-sm/relaxed">
                                         Познакомился с платформой lsFusion (начальные знания).
                                     </p>
                                 </li>
@@ -128,16 +128,16 @@
                                     <div class="py-2 italic">
                                         Компания "ТОО Склад информационных технологий", Павлодар
                                     </div>
-                                    <p class="py-1 text-sm/relaxed text-gray-700 dark:text-gray-300">
+                                    <p class="py-1 text-sm/relaxed">
                                         В этой компании мы разработали большой портал - "ПОРТАЛ ПРОХОЖДЕНИЯ ВЕДОМСТВЕННОЙ ЭКСПЕРТИЗЫ" департамента государственного учета отдела ведомственной экспертизы. Это web-приложение на фреймворе Laravel, в котором реализован самый разнообразный функционал, который возможен для цифровизации документооборота.
                                     </p>
-                                    <p class="py-1 text-sm/relaxed text-gray-700 dark:text-gray-300">
+                                    <p class="py-1 text-sm/relaxed">
                                         В этом приложении реализованы: создание PDF-документов, выгрузка данных в EXCEL, электронно-цифровые подписи, сложная схема документооборота и многое другое.
                                     </p>
-                                    <p class="py-1 text-sm/relaxed text-gray-700 dark:text-gray-300">
+                                    <p class="py-1 text-sm/relaxed">
                                         Инструкция для клиентов - https://www.youtube.com/watch?v=FQ2R48FJicg
                                     </p>
-                                    <p class="py-1 text-sm/relaxed text-gray-700 dark:text-gray-300">
+                                    <p class="py-1 text-sm/relaxed">
                                         http://uso-saraptama.kad.org.kz
                                     </p>
                                 </li>
@@ -151,13 +151,13 @@
                                     <div class="py-2 italic">
                                         Небольшие проекты в разных компаниях, Павлодар
                                     </div>
-                                    <p class="py-1 text-sm/relaxed text-gray-700 dark:text-gray-300">
+                                    <p class="py-1 text-sm/relaxed">
                                         Разработал несколько сайтов на cms WordPress.
                                     </p>
-                                    <p class="py-1 text-sm/relaxed text-gray-700 dark:text-gray-300">
+                                    <p class="py-1 text-sm/relaxed">
                                         Разработал админ-панель на фреймворке Vue Js. Компания предоставила готовый API.
                                     </p>
-                                    <p class="py-1 text-sm/relaxed text-gray-700 dark:text-gray-300">
+                                    <p class="py-1 text-sm/relaxed">
                                         Участвовал в небольших проектах как frontend-разработчик.
                                     </p>
                                 </li>
@@ -171,16 +171,16 @@
                                     <div class="py-2 italic">
                                         ТОО «Компания ФИНИСТ», Павлодар
                                     </div>
-                                    <p class="py-1 text-sm/relaxed text-gray-700 dark:text-gray-300">
+                                    <p class="py-1 text-sm/relaxed">
                                         В этой компании я проработал два года на должности инженер-программист.
                                     </p>
-                                    <p class="py-1 text-sm/relaxed text-gray-700 dark:text-gray-300">
+                                    <p class="py-1 text-sm/relaxed">
                                         Изучил все основы работы серверной и клиентской части приложений.
                                     </p>
-                                    <p class="py-1 text-sm/relaxed text-gray-700 dark:text-gray-300">
+                                    <p class="py-1 text-sm/relaxed">
                                         Участвовал в поддержке 60+ сайтов государственных компаний. Участвовал в разработке больших web-приложений на php-фреймворке Kohana, в разработке мобильного приложения на javascript (Apache Cordova). И многое другое.
                                     </p>
-                                    <p class="py-1 text-sm/relaxed text-gray-700 dark:text-gray-300">
+                                    <p class="py-1 text-sm/relaxed">
                                         В этой компании я научился всем главным основополагающим концепциям, необходимым для разработки сайтов, мобильных приложений и десктопных приложений.
                                     </p>
                                 </li>

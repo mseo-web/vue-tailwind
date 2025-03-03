@@ -1,5 +1,5 @@
 <template>
-    <section id="home" class="relative z-10 overflow-hidden pb-16 pt-[120px] dark:bg-gray-dark md:pb-[120px] md:pt-[150px] xl:pb-[160px] xl:pt-[180px] 2xl:pb-[200px] 2xl:pt-[210px]">
+    <section id="home" class="relative z-10 overflow-hidden pb-16 pt-[120px] bg-white  dark:bg-gray-dark md:pb-[120px] md:pt-[150px] xl:pb-[160px] xl:pt-[180px] 2xl:pb-[200px] 2xl:pt-[210px]">
         <div class="container">
             <div class="-mx-4 flex flex-wrap">
                 <div class="w-full px-4">

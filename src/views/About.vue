@@ -1,5 +1,5 @@
 <template>
-    <section class="relative z-10 overflow-hidden pt-28 lg:pt-[150px]">
+    <section class="relative z-10 overflow-hidden pt-28 lg:pt-[150px] bg-white  dark:bg-gray-dark">
         <div class="container">
             <div class="-mx-4 flex flex-wrap items-center">
                 <div class="w-full px-4 md:w-8/12 lg:w-7/12">
@@ -49,14 +49,14 @@
         </div>
     </section>
 
-    <section id="about" class="pt-16 md:pt-20 lg:pt-28">
+    <section id="about" class="pt-16 md:pt-20 lg:pt-28 bg-white dark:bg-gray-dark">
         <div class="container">
             <div class="md:pb-20 lg:pb-28">
                 <div class="-mx-4 flex flex-wrap items-center">
                     <div class="w-full px-4 lg:w-1/2">
                         <div class="relative mx-auto mb-12 aspect-[25/24] max-w-[500px] text-center lg:m-0" data-wow-delay=".15s">
                             <!-- <img alt="about image" loading="lazy" decoding="async" data-nimg="fill" class="drop-shadow-three dark:hidden dark:drop-shadow-none" src="/images/SM2.png" style="position: absolute; height: 100%; width: auto; inset: 0px; color: transparent;"> -->
-                            <img alt="about image" loading="lazy" decoding="async" data-nimg="fill" class="hidden drop-shadow-three dark:block dark:drop-shadow-none" src="/images/SM2.png" style="position: absolute; height: 100%; width: 100%;; inset: 0px; color: transparent; object-fit: contain;">
+                            <img alt="about image" loading="lazy" decoding="async" data-nimg="fill" class="drop-shadow-three  dark:drop-shadow-none" src="/images/SM2.png" style="position: absolute; height: 100%; width: 100%;; inset: 0px; color: transparent; object-fit: contain;">
                         </div>
                     </div>
                     <div class="w-full px-4 lg:w-1/2">

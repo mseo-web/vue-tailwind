@@ -1,5 +1,5 @@
 <template>
-  <section class="pb-[120px] pt-[60px]">
+  <section class="pb-[120px] pt-[60px] bg-gray-light dark:bg-black">
       <div class="container">
           <div class="-mx-4 flex flex-wrap justify-center">
               <div class="w-full p-4 md:w-2/3 lg:w-1/2 xl:w-1/3 cursor-pointer" v-for="post in posts" :key="post.id" @click="selectPost(post)">
@@ -12,7 +12,10 @@
                           <div class="flex items-center">
                               <div class="mr-5 flex items-center border-r border-body-color border-opacity-10 pr-5 dark:border-white dark:border-opacity-10 xl:mr-3 xl:pr-3 2xl:mr-5 2xl:pr-5">
                                   <div class="mr-4">
-                                      <div class="relative h-10 w-10 overflow-hidden"><img alt="author" loading="lazy" decoding="async" data-nimg="fill" sizes="100vw" src="/images/SM-logo2.png" style="position: absolute; height: auto; width: 100%; inset: 0px; color: transparent;"></div>
+                                      <div class="relative h-10 w-10 overflow-hidden">
+                                        <img alt="author" loading="lazy" decoding="async" data-nimg="fill" sizes="100vw" src="/images/SM-logo1.png" style="position: absolute; height: auto; width: 100%; inset: 0px; color: transparent;" class="dark:hidden">
+                                        <img alt="author" loading="lazy" decoding="async" data-nimg="fill" sizes="100vw" src="/images/SM-logo2.png" style="position: absolute; height: auto; width: 100%; inset: 0px; color: transparent;" class="hidden dark:block">
+                                      </div>
                                   </div>
                                   <div class="w-full">
                                       <h4 class="mb-1 text-sm font-medium text-dark dark:text-white">Sergey Mikhailov</h4>

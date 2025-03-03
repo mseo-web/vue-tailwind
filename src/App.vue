@@ -12,9 +12,13 @@
   import Footer from './components/Footer.vue';
   import ScrollToTop from './components/ScrollToTop.vue';
   const router = useRouter();
+  import { useThemeStore } from './stores/ThemeStore';
+
+  const themeStore = useThemeStore();
 
   onMounted(() => {
     window.scrollTo(0, 0);
+    themeStore.initTheme();
   });
 
   watch(router.currentRoute, () => {

@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="container bg-gray-light dark:bg-black pt-[60px]">
     <ul class="flex flex-row flex-wrap items-center justify-center">
       <li
         @click="selectAllCategories"

@@ -1,9 +1,13 @@
 <template>
-    <footer class="relative z-10 pt-16 dark:bg-gray-dark md:pt-20 lg:pt-24">
+    <footer class="relative z-10 pt-16 bg-white dark:bg-gray-dark md:pt-20 lg:pt-24">
       <div class="container">
           <div class="-mx-4 flex flex-wrap">
               <div class="w-full px-4 md:w-1/2 lg:w-4/12 xl:w-5/12">
-                  <div class="mb-12 max-w-[360px] lg:mb-16"><a class="mb-8 inline-block" href="/"><img alt="logo" loading="lazy" width="140" height="30" decoding="async" data-nimg="1" class="w-36" style="color: transparent;" src="/images/SM-logo2.png"></a>
+                  <div class="mb-12 max-w-[360px] lg:mb-16">
+                    <a class="mb-8 inline-block" href="/">
+                        <img alt="logo" loading="lazy" width="140" height="30" decoding="async" data-nimg="1" class="w-36  dark:hidden" style="color: transparent;" src="/images/SM-logo1.png">
+                        <img alt="logo" loading="lazy" width="140" height="30" decoding="async" data-nimg="1" class="hidden w-36 dark:block" style="color: transparent;" src="/images/SM-logo2.png">
+                    </a>
                       <p class="mb-9 text-base leading-relaxed text-body-color dark:text-body-color-dark">Разработка программного обеспечения</p>
 
                       <div class="flex items-center">
