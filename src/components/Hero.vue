@@ -6,7 +6,18 @@
                     <div class="mx-auto max-w-[800px] text-center">
                         <h1 class="mb-5 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">Сергей Михайлов</h1>
                         <p class="mb-12 text-base !leading-relaxed text-body-color dark:text-body-color-dark sm:text-lg md:text-xl">FULL STACK РАЗРАБОТЧИК</p>
-                        <div class="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0"><router-link class="rounded-sm bg-primary px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80" to="/projects">Проекты</router-link><a class="inline-block rounded-sm bg-black px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-black/90 dark:bg-white/10 dark:text-white dark:hover:bg-white/5" href="https://github.com/mseo-web" target="_blank">GitHub</a></div>
+                        
+                        <div class="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
+                            <router-link class="rounded-sm bg-primary px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80" to="/projects">
+                                Проекты
+                            </router-link>
+                            <router-link class="rounded-sm bg-primary px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80" to="/certificates">
+                                Сертификаты
+                            </router-link>
+                            <a class="inline-block rounded-sm bg-black px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-black/90 dark:bg-white/10 dark:text-white dark:hover:bg-white/5" href="https://github.com/mseo-web" target="_blank">
+                                GitHub
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>

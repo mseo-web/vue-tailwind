@@ -5,7 +5,10 @@
                 <div class="w-full px-4 md:w-8/12 lg:w-7/12">
                     <div class="mb-8 max-w-[570px] md:mb-0 lg:mb-12">
                         <h1 class="mb-5 text-2xl font-bold text-black dark:text-white sm:text-3xl">Резюме</h1>
-                        <!-- <p class="text-base font-medium leading-relaxed text-body-color">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In varius eros eget sapien consectetur ultrices. Ut quis dapibus libero.</p> -->
+                        <p class="text-base font-medium leading-relaxed text-body-color">
+                            Можно скачать резюме в формате PDF - 
+                            <a class="inline-block rounded-sm bg-black px-4 py-2 text-base font-semibold text-white duration-300 ease-in-out hover:bg-black/90 dark:bg-white/10 dark:text-white dark:hover:bg-white/5" href="/images/resume/resume.pdf" target="_blank">Резюме (PDF)</a>
+                        </p>
                     </div>
                 </div>
                 <div class="w-full px-4 md:w-4/12 lg:w-5/12">
@@ -85,7 +88,7 @@
                                         Общеобразовательная школа №3, созданная в 1957 году и преобразованная в 1997 году в гимназию, в итоге длительного пути своего развития в 2005 году получила статус гимназии для одаренных детей.
                                     </div>
                                     <p class="py-1 text-sm/relaxed">
-                                        Закончил физико-математическую школу в Советском Союзе, чему несказанно рад. Участвовал в олимпиадах по физике и математике.
+                                        Закончил физико-математическую школу в Советском Союзе, чему очень рад. Участвовал в олимпиадах по физике и математике.
                                     </p>
                                 </li>
                             </ul>
@@ -111,13 +114,19 @@
                                         Небольшие проекты, самообразование, Павлодар
                                     </div>
                                     <p class="py-1 text-sm/relaxed">
-                                        Занимался самообразованием (C#, Python, React, Vue, Go и другое). UMI CMS - начальные знания.
+                                        Занимался самообразованием (C#, Python, React, Vue, Go, Flutter и другое).
+                                    </p>
+                                    <p class="py-1 text-sm/relaxed">
+                                        Освоил основные приемы и методы работы с сервисом GREEN-API (получил сертификат).
                                     </p>
                                     <p class="py-1 text-sm/relaxed">
                                         Познакомился с интеграцией amoCRM (начальные знания).
                                     </p>
                                     <p class="py-1 text-sm/relaxed">
                                         Познакомился с платформой lsFusion (начальные знания).
+                                    </p>
+                                    <p class="py-1 text-sm/relaxed">
+                                        UMI CMS - начальные знания.
                                     </p>
                                 </li>
                                 <li class="relative">
